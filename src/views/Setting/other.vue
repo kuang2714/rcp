@@ -65,7 +65,10 @@
         />
       </n-card>
     </div>
-  
+    <n-card class="set-item">
+      <div class="name">显示 GitHub 仓库按钮</div>
+      <n-switch v-model:value="showGithub" :round="false" />
+    </n-card>
     <n-card class="set-item">
       <div class="name">
         默认加载数量

@@ -8,9 +8,9 @@
           <n-icon depth="3" size="18">
             <SvgIcon icon="github" />
           </n-icon>
-          <n-text class="author-text" depth="3">Redcha</n-text>
+          <n-text class="author-text" depth="3">{{ packageJson.author }}</n-text>
         </div>
-        <n-text class="version" depth="3">V1.52</n-text>
+        <n-text class="version" depth="3">{{ packageJson.version }}</n-text>
       </div>
     </n-h1>
     <!-- 导航栏 -->
